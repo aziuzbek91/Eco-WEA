@@ -1,0 +1,845 @@
+body {
+  margin: 0 auto;
+  font-family: 'inter';
+}
+
+header {
+  margin: 0 auto;
+}
+
+.menu-width-1 {
+  width: 1500px;
+  display: flex;
+  margin: 0 auto;
+}
+
+
+
+.locked {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+
+
+.menu-background-1 {
+  height: 80px;
+  margin: 0 0 0;
+  background-color: #18530b;
+  background-position: 0% 50%;
+  background-size: cover;
+  display: flex;
+}
+.eco-name-href{
+  margin: 0 auto;
+}
+
+.eco-icon {
+  background: url(../img/ecology.png);
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+  margin: 24px 0 0 -45px;
+}
+
+.eco-name {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 10px;
+  user-select: none;
+}
+.eco-name-1 {
+  color: #F4AF34;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+.eco-name-2 {
+  color: cyan;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+
+
+.search-form{
+  margin: auto auto auto 0;
+  text-align: center;
+  display: block;
+  }
+  
+input[type=search]{
+  width: 400px;
+  height: 50px;
+  font-size: 16px;
+  padding: 0px 50px 0px 20px;
+  border-radius: 40px;
+  outline: none;
+  border: solid gray 2px;
+  background: url('../img/search.png') right no-repeat;
+  background-size: 30px;
+  background-position: 95%;
+  background-color: white;
+  }
+
+.admin-href {
+  text-decoration: none;
+  margin: auto 40px auto 0;
+  width: 0;
+  height: 50px;
+  align-content: end;
+  text-align: end;
+
+}
+.admin {
+  border-radius: 40px;
+  background-color: #F4AF34;
+  color: green;
+  float: right;
+  align-content: center;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  margin: auto;
+}
+.admin:hover {
+  background-color: cyan;
+  color: #F4AF34;
+}
+
+
+
+.language {
+  margin: auto 20px auto 0;
+  cursor: pointer;
+}
+.flags {
+  height: 31.2px;
+}
+#country-select {
+  top: 10.5rem;
+}
+.select-lang {
+  width: 80px;
+  height: 31.2px;
+  line-height: 22px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.5);
+}
+.select-lang::after {
+  content: "▼";
+  font-size: 0.7em;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0, -50%);
+  color: white;
+  background-size: 5px;
+}
+.select-lang:hover .options .option label {
+  cursor: pointer;
+}
+.select-lang .options .option img {
+  width: 3.25rem;
+}
+.select-lang .options .option label {
+  display:none;
+}
+.select-lang .options .option input {
+  display:inline-block;
+  position: absolute;
+  visibility: hidden;
+}
+.select-lang .options .option input:checked + label {
+  display:block;
+}
+.select-lang:hover .options .option input + label {
+  display:block;
+}
+.eco-name-href {
+  text-decoration: none;
+  display: flex;
+  margin-left: 20px;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+
+.aside_icon {
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  width: 0;
+  height: 0;
+  margin: 25px;
+  margin-right: 100px;
+}
+
+.aside_icon_img-1 {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+.aside_icon_img-2 {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+
+
+
+main {
+  background: url(../img/Abstract\ gradient\ neon\ lights\ 1.jpg) no-repeat;
+  background-position: 0% 50%;
+  background-size: cover;
+  justify-content: start;
+  text-align: start;
+  align-content: start;
+  height: 2600px;;
+  display: flex;
+}
+
+#aside {
+  width: 250px;
+}
+
+#aside-background {
+position: absolute;
+background-size: 100%;
+background-color: green;
+border-right: 1px solid #18530b;
+height: 2600px;;
+}
+
+#aside-sites {
+display: block;
+}
+
+.news-href {
+margin-top: 60px;
+}
+
+.news, .shops, .laboratories, .pictures {
+margin-top: 40px;
+color: white;
+padding: 20px 10px 0;
+list-style: none;
+font-size: 25px;
+text-align: center;
+
+}
+
+a {
+text-decoration: none;
+  color: #F4AF34;
+}
+.news-href, .shops-href, .laboratories-href, .pictures-href {
+  text-shadow: 2px 2px 4px black;
+  display: block;
+  margin-bottom: 40px;
+  background-color: #18530b;
+  padding: 10px 20.5px;
+  border-radius: 6px;
+}
+
+
+.news-menu-1, .news-menu-2 {
+font-size: 16px;
+margin: 20px auto;
+border: 2px solid;
+background-color: white;
+color:  #18530B;
+padding: 10px 5px;
+border-radius: 90px;
+text-align: center;
+box-shadow: 0px 5px 5px black;
+}
+.news-menu-href-1, .news-menu-href-2 {
+  border-radius: 90px;
+}
+.news-menu-1:hover, .news-menu-2:hover {
+background-color: #18530B;
+color: white;
+border-radius: 90px;
+}
+
+.borders-into-aside {
+border: #18530B solid 2px;
+margin: 50px 20px -15px;
+}
+
+
+.dropbtn {
+background-color: white;
+color:  #18530B;
+font-size: 16px;
+font-weight: bold;
+border: 2px solid #18530B;
+padding: 10px 20px;
+border-radius: 90px;
+text-align: center;
+box-shadow: 0px 5px 5px black;
+cursor: pointer;
+}
+
+
+.dropdown {
+position: relative;
+display: inline-block;
+border-radius: 90px;
+cursor: pointer;
+}
+
+.dropdown-content {
+display: none;
+position: relative;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+border-radius: 9px;
+border: white solid;
+color: #18530B;
+}
+
+.dropdown-content .dropdown-href {
+color: #18530B;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+border-radius: 6px;
+font-size: 16px;
+}
+
+.dropdown-content .dropdown-href:hover {
+background-color: #18530B;
+border-radius: 6px;
+color: white;
+}
+
+
+.dropdown:hover .dropbtn {
+background-color:  #18530B;
+color: white;
+border: white solid 2px;
+cursor: pointer;
+border-radius: 90px;
+}
+
+.show {display: block;}
+
+
+
+section {
+  margin: 0 auto;
+  height: 2500px;
+
+}
+
+
+.section-laboratories-title {
+  margin: 60px auto;
+  text-align: center;
+  color: #F4AF34;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px black;
+}
+
+
+.section-laboratories {
+  height: 2100px;
+  font-size: smaller;
+    margin: 120px 0;
+}
+
+.section-regions {
+  margin: 10px auto;
+}
+
+.section-regions-href-a {
+  border: #18530B solid 1px;
+  padding: 10px;
+  margin: 0 10px 15px;
+  font-size: 18px;
+  background-color: #F4AF34;
+  color: #18530B;
+  border-radius: 6px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.section-regions-href-b {
+  border: #18530B solid 1px;
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 18px;
+  background-color: #F4AF34;
+  color: #18530B;
+  border-radius: 6px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.section-regions-href-a:hover, .section-regions-href-b:hover {
+  background-color: cyan;
+  color: #F4AF34;
+}
+
+
+.section-laboratories-laboratory {
+  background-color: white;
+  height: 265px;
+  border-radius: 8px;
+  margin: 40px 0;
+  border: #18530B solid 1px;
+  color: #18530B;
+}
+
+.section-laboratories-laboratory-container {
+  display: flex;
+   height: 172px;
+}
+
+
+.section-laboratories-laboratory-img {
+  background-color: #F7F7F7;
+  margin: 10px;
+  height: 150px;
+  width: 130px;
+  border-radius: 10px;
+
+}
+
+
+
+.section-laboratories-laboratory-title {
+  width: 500px;
+}
+
+.section-laboratories-laboratory-adress-img {
+  width: 20px;
+  height: 20px;
+}
+
+.section-laboratories-laboratory-adress {
+  margin: 0 0;
+  font-size: 14px;
+  width: 482px;
+}
+
+.section-laboratories-laboratory-goals {
+  margin: 10px 0;
+  font-size: 14px;
+  color: gray;
+}
+
+.section-laboratories-laboratory-goals-text {
+  width: 500px;
+  margin: 0 auto 20px;
+  font-size: 14px;
+  color: gray;
+}
+
+.section-laboratories-laboratory-phone {
+  display: flex;
+  font-size: 18px;
+
+}
+
+.section-laboratories-laboratory-phone-img {
+  margin: 20px 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.section-laboratories-laboratory-phone-number {
+  height: 200px;
+  margin-right: 20px;
+
+}
+
+.section-laboratories-laboratory-information-text {
+  width: 500px;
+  margin: 20px 10px 20px;
+  height: 115px;
+  font-size: 15px;
+}
+
+.section-laboratories-laboratory-about {
+  height: 40px;
+  background-color: #18530B;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 6px;
+  width: 150px;
+  margin: 0 0 0 105px;
+}
+
+.section-laboratories-laboratory-about-href-a {
+  width: 0;
+}
+
+.section-laboratories-laboratory-about-href {
+  height: 40px;
+  width: 100px;
+  background-color: #18530B;
+}
+
+
+
+.previous-and-next {
+  display: flex;
+  margin: 70px auto;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.number-1, .number-2 {
+  border: 2px solid;
+  padding: 20px 27px;
+  margin: 0 10px;
+  border-radius: 6px;
+  background-color: green;
+  width: 10px;
+}
+
+.previous, .next {
+  border: 2px solid;
+  padding: 20px 27px;
+  margin: 0 10px;
+  border-radius: 6px;
+  background-color: green;
+}
+
+
+footer {
+  background-color: #18530b;
+  background-position: 0% 50%;
+  background-size: cover;
+  align-content: center;
+}
+
+
+
+.footer-top {
+  height: 140px;
+  display: grid;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+
+.footer-eco {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  margin: 0 auto;
+}
+.eco-name-footer {
+  display: flex;
+  margin-top: -10px;
+  margin-left: 10px;
+  user-select: none;
+
+}
+.eco-name-1-footer {
+  color: #F4AF34;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+.eco-name-2-footer {
+  color: cyan;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.footer-center {
+  display: flex;
+  margin: 20px 0;
+  margin-left: 60px;
+  width: 200px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+
+.footer-center-href{
+  width: 40px;
+  height: 40px;
+  border-radius: 90px;
+  margin: 10px;
+}
+.footer-center-icon {
+  border-radius: 90px;
+}
+.footer-center-image {
+  width: 40px;
+  height: 40px;
+}
+.footer-eco-contact {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.footer-eco-phone {
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
+  
+}
+.footer-eco-mail {
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
+}
+.footer-eco-mail-href {
+  color: blue;
+}
+
+.footer-button {
+  color: white;
+  background-color: #18530b;
+}
+
+.footer-button-width {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: end;
+}
+.footer-eco-data {
+  font-size: 15px;
+  margin: 20px 0
+}
+#red {
+  background-color: blue;
+  background-size: 20px;
+}
+
+@media screen and (max-width: 75rem) {
+  .eco-image {
+    background-position: 0% 50%;
+    background-position: top;
+    height: 260px;
+  }
+  
+  .menu-background-1 {
+    height: 50px;
+    background-color: hsla(120, 100%, 25%, 0.479);
+    margin-top: 0px;
+    margin-bottom: 92px;
+  }
+  .eco-icon {
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+    margin: 12px 0 12px 12px;
+  }
+  .menu {
+    font-size: 11px;
+    margin-bottom: 19px;
+  }
+  .menu-1, .menu-2, .menu-3, .menu-4 {
+    margin: 0 10px 0 0;
+    padding: 10px 15px 10px;
+  }
+  
+  .language {
+    margin: auto 15px auto 0;
+    padding-top: 8px;
+  }
+  .flags {
+    height: 23px;
+  }
+  #country-select {
+    top: 10.5rem;
+  }
+  .select-lang {
+    width: 60px;
+    height: 23px;
+  }
+  .select-lang::after {
+    font-size: 0.5em;
+    top: 50%;
+    right: 7px;
+
+  }
+  .select-lang .options .option img {
+    width: 2.5rem;
+  }
+
+  .eco-name {
+    display: flex;
+    user-select: none;
+    margin-top: -30px;
+  }
+  .eco-name-1 {
+    font-size: 32px;
+    text-shadow: 1px 2px 4px black;
+  }
+  .eco-name-2 {
+    font-size: 32px;
+    text-shadow: 1px 2px 4px black;
+  }
+
+  .menu-background-2 {
+    height: 60px;
+
+  }
+
+  .aside_icon {
+    margin: 18px;
+    margin-right: 88px;
+  }
+  
+  .aside_icon_img-1 {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .aside_icon_img-2 {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .search-form{
+    width: 400px;
+    }
+    
+  input[type=search]{
+    width: 270px;
+    height: 40px;
+    font-size: 12px;
+    padding: 0px 15px 0px 15px;
+    border: solid gray 1.5px;
+    background-size: 20px;
+    }
+  
+  .admin-href {
+    width: 100px;
+    height: 50px;
+    margin-right: 18px;
+  }
+  .admin {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  main {
+    background-position: 0% 50%;
+    height: 1700px;
+  }
+  
+#aside {
+  width: 168px;
+}
+
+ #aside-sites {
+    width: 168px;
+    height: 1700px;
+  }
+  
+  .uznature {
+    margin: 120px 14px;
+    padding: 4px;
+    width: 132px;
+    height: 132px;
+    border: 1.5px;
+  }
+  
+  .uznature-img{
+    width: 30px;
+    margin: auto 50px;
+  }
+  .uznature-name {
+    margin-top: -1px;
+    font-size: 11px;
+  }
+  
+  
+  .lex {
+    margin: 120px 14px;
+    width: 132px;
+    height: 132px;
+    border: 1.5px;
+  }
+  .lex-img{
+    width: 132px;
+  }
+  .lex-name {
+    font-size: 11px;
+  }
+
+  .mygov {
+    margin: 120px 14px;
+    padding: 4px;
+    width: 132px;
+    height: 132px;
+    border: 1.5px;
+  }
+  .mygov-img{
+    width: 132px;
+  }
+  .mygov {
+    font-size: 11px;
+  }
+
+
+
+
+  
+  .section-laboratories-title {
+    margin: 50px auto;
+    font-size: 19px;
+  }
+  
+  .section-laboratories {
+    display: grid;
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+  
+  .section-laboratories-a {
+    border: 1.5px solid rgb(0, 72, 0);
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+  }
+  
+  .section-laboratories-b {
+    border: 2px solid rgb(0, 72, 0);
+    background: white;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .section-laboratories-photo {
+    width: 180px;
+    margin: 0 auto;
+    height: 100px;
+    padding: 10px;
+  }
+  .section-laboratories-text {
+    padding: 10px;
+    color: green;
+    height: 60px;
+  }
+  
+  .date {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #939396;
+  }
+  .hour {
+    margin-left: 15px;
+  }
+  
+  .view-img {
+    width: 18px;
+    height: 18px;
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+}

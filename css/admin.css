@@ -1,0 +1,147 @@
+body {
+    margin: 0 auto;
+    font-family: 'inter';
+  }
+
+  main {
+    background: url(../img/Abstract\ gradient\ neon\ lights\ 1.jpg) no-repeat;
+    background-position: 0% 50%;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.eco  {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.eco-name-href{
+display: flex;
+ height: 0;
+ justify-content: center;
+ width: 250px;
+ margin: 0 auto;
+}
+  
+.eco-icon {
+  background: url(../img/ecology.png);
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+  margin-top: 31px;
+}
+
+.eco-name {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 10px;
+  user-select: none;
+}
+.eco-name-1 {
+  color: #F4AF34;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+.eco-name-2 {
+  color: cyan;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.login {
+    background-color: hsla(120, 100%, 25%, 0.479);
+    width: 500px;
+    height: 450px;
+    border: 2px solid green;
+    margin: 100px auto;
+    box-sizing: border-box;
+    border-radius: 9px;
+    box-shadow: 0px 5px 5px black;
+}
+.login-title {
+    text-align: center;
+    color: #F4AF34;
+    margin: 30px auto 0;
+    text-shadow: 2px 2px 4px black;
+}
+
+form input {
+    display: block;
+    padding: 14.5px;
+    margin: 2rem auto;
+   border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+    width: 400px;
+    box-shadow: 0px 5px 5px black;
+    letter-spacing: 0.8px;
+    transition: all 0.1s ease-in-out;
+}
+
+
+
+
+ form button {
+    color: var(--color);
+    display: block;
+    padding: 13px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    width: 200px;
+    cursor: pointer;
+    margin: 50px auto;
+    transition: all 0.1s ease-in-out;
+    border: none;
+    box-shadow: 0px 5px 5px black;
+    background-color: #F4AF34;
+    color: green;
+
+}
+
+ form button:hover {
+    box-shadow: 0px 5px 5px black;
+    transform: scale(1.02);
+    background-color: cyan;
+    color: #F4AF34;
+}
+
+.register-forget {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.register {
+    margin: auto 20px;
+    font-size: 20px;
+}
+
+.register-href {
+    color: cyan;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
+}
+.register-href:hover, .forgot-href:hover {
+    color: #F4AF34;
+}
+
+.forgot {
+    margin: auto 20px;
+}
+
+.forgot-href {
+    color: cyan;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
+}
